@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main -Entry
- * Description:Using if statement to print if num is positive or negative
+ * main -prints if the number is positive or negative
+ *
+ * Description:A C program that print if number is positive or negative
  * return: 0
  */
 int main(void)
