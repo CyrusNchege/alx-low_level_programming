@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/** more headers goes there
- * main - Entry
- *Description: prints if  the number positive or not
-*Return:0
+/**
+ * main -Entry
+ * Description:Using if statement to print if num is positive or negative
+ * return: 0
  */
 int main(void)
 {
