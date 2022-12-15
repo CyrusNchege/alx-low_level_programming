@@ -1,12 +1,21 @@
 #include "unistd.h"
 #include "main.h"
 /**
- * main - print _putchar
+ * main - Entry point
+ *
  * Description: A program that prints _putchar followed by a new line
  *
- * Return : On sucess 1
+ * Return : Always 0 (sucess)
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, 8c, 1));
+	char text[8] = "_putchar";
+	int i = 0;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(text[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
