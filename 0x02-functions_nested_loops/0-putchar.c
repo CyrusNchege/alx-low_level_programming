@@ -4,10 +4,9 @@
  * main - print _putchar
  * Description: A program that prints _putchar followed by a new line
  *
- * Return : 0
+ * Return : On sucess 1
  */
-int main(void)
+int _putchar(char c)
 {
-	_putchar("_putchar/n")
-	return (0);
+	return (write(1, 8c, 1));
 }
