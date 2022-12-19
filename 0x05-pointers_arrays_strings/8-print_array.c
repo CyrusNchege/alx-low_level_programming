@@ -1,13 +1,23 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * main - check the code
- * Return: Always 0
+ * print_array - prints n elements of an array of integers
+ * @a: pointer to a variable
+ * @n: number of items in the array
+ * Return: void
  */
-int main(void)
+void print_array(int *a, int n)
 {
-	char *str;
+	int index;
 
-	str = "0123456789";
-	puts_half(str);
-	return (0);
+	for (index = 0; index < n; index++)
+	{
+		printf("%d", a[index]);
+
+		if (index == n - 1)
+			continue;
+
+		printf(", ");
+	}
+	printf("\n");
 }
